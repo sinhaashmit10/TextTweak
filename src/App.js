@@ -18,7 +18,7 @@ function App() {
   }
   return (
     <>
-     <Navbar title = "GRAPHY" aboutText = "About GRAPHY" mode = {mode} toggleMode={toggleMode}/>
+     <Navbar title = "Text Tweak" aboutText = "About" mode = {mode} toggleMode={toggleMode}/>
      <div className="container my-3">
       <TextForm heading = "Enter the text to analyze" mode = {mode}/>
      </div>
